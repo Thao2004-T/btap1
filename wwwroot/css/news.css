@@ -1,0 +1,66 @@
+/* Tổng quát */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Danh sách tin tức */
+.news-list {
+    list-style: none;
+    padding: 0;
+}
+
+.news-list li {
+    background: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    transition: 0.3s;
+}
+
+.news-list li:hover {
+    background: #e9ecef;
+    cursor: pointer;
+}
+
+/* Chi tiết tin tức */
+.news-detail {
+    padding: 20px;
+    border-left: 5px solid #28a745;
+}
+
+/* Form xóa tin */
+.delete-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-form button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.delete-form button:hover {
+    background: darkred;
+}
